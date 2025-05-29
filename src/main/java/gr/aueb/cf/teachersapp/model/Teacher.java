@@ -13,7 +13,7 @@ import java.util.UUID;
 @AllArgsConstructor
 @Builder
 @Table(name = "teachers")
-public class Teacher {
+public class Teacher  extends  AbstractEntity{
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
